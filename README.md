@@ -8,5 +8,5 @@ In this 1-hour session, we will cover:
 
 Material: [Slides](https://github.com/caseybreen/workflow/blob/main/slides/01_workflow.pdf) 
 
-Instructor: [Casey Breen](www.caseybreen.com)
+Instructor: [Casey Breen](https://caseybreen.com)
 
