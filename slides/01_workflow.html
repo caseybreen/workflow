@@ -12,7 +12,7 @@
 
   <meta name="author" content="Casey Breen">
   <meta name="dcterms.date" content="2023-11-30">
-  <title>quarto-inpute810cd2b</title>
+  <title>quarto-input131a257f</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -541,20 +541,12 @@ Casey Breen
 <span id="cb3-2"><a href="#cb3-2"></a>git push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="github-workflow-git-push-1" class="slide level2">
-<h2>GitHub Workflow – Git Push</h2>
-
-<img data-src="01_workflow_files/figures/github_overview.png" width="716" class="r-stretch"><p>Send (“push”) your changes up to remote repository (where collaborators / public can see)</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>git push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
 <section id="github-workflow-git-pull" class="slide level2">
 <h2>GitHub Workflow – Git Pull</h2>
 
 <img data-src="01_workflow_files/figures/github_overview.png" width="716" class="r-stretch"><p>Pull down changes from repository (e.g., changes your collaborator made)</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>git pull</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>git pull</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="other-features" class="slide level2">
@@ -563,11 +555,11 @@ Casey Breen
 <li><strong>Git Clone</strong>: Clone a remote repository to your local machine</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="do">## general command </span></span>
-<span id="cb6-2"><a href="#cb6-2"></a>git clone https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>username<span class="sc">/</span>repository<span class="sc">-</span>name.git</span>
-<span id="cb6-3"><a href="#cb6-3"></a></span>
-<span id="cb6-4"><a href="#cb6-4"></a><span class="do">## clone the repository for this class </span></span>
-<span id="cb6-5"><a href="#cb6-5"></a>git clone https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>username<span class="sc">/</span>repository<span class="sc">-</span>name.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="do">## general command </span></span>
+<span id="cb5-2"><a href="#cb5-2"></a>git clone https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>username<span class="sc">/</span>repository<span class="sc">-</span>name.git</span>
+<span id="cb5-3"><a href="#cb5-3"></a></span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="do">## clone the repository for this class </span></span>
+<span id="cb5-5"><a href="#cb5-5"></a>git clone https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>username<span class="sc">/</span>repository<span class="sc">-</span>name.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li><p><strong>Git fork:</strong> Copy a (public) repository to have your own version</p></li>
@@ -588,17 +580,17 @@ Casey Breen
 <section id="live-demo" class="slide level2">
 <h2>Live Demo</h2>
 <ul>
-<li><p>Adding new file to github repository</p></li>
-<li><p>OSF / Github replication package</p></li>
+<li><p>Adding new file to GitHub repository</p></li>
+<li><p>OSF / GitHub replication package</p></li>
 </ul>
 </section>
 <section id="exercises-at-home" class="slide level2">
 <h2>Exercises (at home)</h2>
-<ul>
-<li><p>Create a new Github repository on GitHub website</p></li>
-<li><p>Clone GitHub Repository</p></li>
-<li><p>Upload an R markdown script to GitHub Repository</p></li>
-</ul>
+<ol type="1">
+<li><p>Create a new Github repository</p></li>
+<li><p>Clone this GitHub repository to your local machine</p></li>
+<li><p>‘Push’ an R markdown script to your GitHub Repository</p></li>
+</ol>
 </section></section>
 <section>
 <section id="latexoverleaf" class="title-slide slide level1 center">
@@ -617,7 +609,7 @@ Casey Breen
 <h2>Insert equations</h2>
 <ul>
 <li><p>Use $ or \begin{equation} to enter equation mode</p></li>
-<li><p>\$h(x) = e ^{x}$</p>
+<li><p>$h(x) = e ^{x}$</p>
 <p><span class="math display">\[
 h(x) = \alpha e^{\beta x}
 \]</span></p></li>
@@ -644,12 +636,12 @@ h(x) = \alpha e^{\beta x}
 <li>Include figures in text</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a>\begin{figure}[<span class="sc">!</span>htb]</span>
-<span id="cb7-2"><a href="#cb7-2"></a>    \centering</span>
-<span id="cb7-3"><a href="#cb7-3"></a>    \includegraphics[width <span class="ot">=</span> .<span class="dv">9</span>\textwidth]{figs<span class="sc">/</span>tanganyika_map.png}</span>
-<span id="cb7-4"><a href="#cb7-4"></a>    \caption{Tanganyika province with three Zone de Santes highlighted.}</span>
-<span id="cb7-5"><a href="#cb7-5"></a>    \label{fig<span class="sc">:</span>map}</span>
-<span id="cb7-6"><a href="#cb7-6"></a>\end{figure}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>\begin{figure}[<span class="sc">!</span>htb]</span>
+<span id="cb6-2"><a href="#cb6-2"></a>    \centering</span>
+<span id="cb6-3"><a href="#cb6-3"></a>    \includegraphics[width <span class="ot">=</span> .<span class="dv">9</span>\textwidth]{figs<span class="sc">/</span>tanganyika_map.png}</span>
+<span id="cb6-4"><a href="#cb6-4"></a>    \caption{Tanganyika province with three Zone de Santes highlighted.}</span>
+<span id="cb6-5"><a href="#cb6-5"></a>    \label{fig<span class="sc">:</span>map}</span>
+<span id="cb6-6"><a href="#cb6-6"></a>\end{figure}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li><p>Reference figures and tables in text using label</p>
@@ -664,7 +656,7 @@ h(x) = \alpha e^{\beta x}
 <div class="column" style="width:40%;">
 <ul>
 <li><p>Google docs for Latex</p></li>
-<li><p>See tex code and compiled PDF at same time</p></li>
+<li><p>See .tex code and compiled PDF at same time</p></li>
 <li><p>Great for collaborating</p></li>
 </ul>
 <!-- -->
@@ -683,12 +675,33 @@ h(x) = \alpha e^{\beta x}
 <li><p><a href="https://www.overleaf.com/9127815783ypcnhppssxxd#c7eac7">Latex Manuscript</a></p></li>
 </ul>
 </section>
+<section id="exercises-at-home-1" class="slide level2">
+<h2>Exercises (at home)</h2>
+<ol type="1">
+<li><p>Create a new overleaf project</p></li>
+<li><p>Upload and insert a new figure</p></li>
+<li><p>Write out a mathematical equation</p></li>
+<li><p>Share the overleaf document with a friend</p></li>
+</ol>
+</section>
 <section id="r-users-quarto-markdown" class="slide level2">
 <h2>R users: Quarto (markdown)</h2>
 <ul>
-<li><p>Write papers, take notes, put together slides</p></li>
-<li><p>Markdown is simpler than Latex, but fewer features / less resources for help</p></li>
+<li><p>Designed for writing code</p>
+<ul>
+<li>Interwoven text and code chunks</li>
+</ul></li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Can also write papers, take notes, make slides</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Markdown is simpler than Latex, but fewer features / less resources for help</li>
+</ul>
+</div>
 </section></section>
 <section>
 <section id="zotero-for-reference-management" class="title-slide slide level1 center">
@@ -698,30 +711,35 @@ h(x) = \alpha e^{\beta x}
 <section id="zotero" class="slide level2">
 <h2>Zotero</h2>
 <ul>
-<li><p>Free, online tool</p></li>
-<li><p>Simplifies reference management</p></li>
+<li><p>Free tool for simplifying reference management</p></li>
+<li><p>Organize, annotate, and track references across devices</p></li>
 </ul>
 </section>
-<section id="zotero-workflow" class="slide level2">
-<h2>Zotero workflow</h2>
+<section id="simple-zotero-workflow" class="slide level2">
+<h2>Simple Zotero workflow</h2>
 <ol type="1">
 <li><p>Add papers to Zotero to “collection”</p>
 <ul>
 <li>Collection = set of references for one project</li>
 </ul></li>
-<li><p>Generate .bibtex file [or individual cites]</p></li>
-<li><p>Move .bibtex file to Latex repository</p></li>
 </ol>
+<div class="fragment">
+<ol type="1">
+<li>Generate .bibtex file (or individual citations)</li>
+</ol>
+</div>
+<div class="fragment">
+<ol type="1">
+<li>Move .bibtex file to paper repository</li>
+</ol>
+</div>
 </section>
 <section id="zotero-tips" class="slide level2">
 <h2>Zotero tips</h2>
 <ul>
 <li><p><a href="https://www.zotero.org/download/connectors">Zotero connector</a>: browser plug-in the automatically add and pdf paper to a collection</p></li>
 <li><p><a href="https://retorque.re/zotero-better-bibtex/">Better Bibtex</a>: help customize the different citation keys</p></li>
-<li><p>Create shared libraries when working with collaborators</p>
-<ul>
-<li>Everyone can contribute</li>
-</ul></li>
+<li><p>Create shared libraries when working with collaborators</p></li>
 </ul>
 </section>
 <section id="zotero-live-demo" class="slide level2">
@@ -732,15 +750,33 @@ h(x) = \alpha e^{\beta x}
 <li><p>Generating bibtex file</p></li>
 </ul>
 </section>
-<section id="exercises" class="slide level2">
-<h2>Exercises</h2>
+<section id="exercises-at-home-2" class="slide level2">
+<h2>Exercises (at home)</h2>
+<ol type="1">
+<li><p>Create a new Zotero collection</p></li>
+<li><p>Add 3 papers to the new collection (use Zotero connector or drag in PDFs)</p></li>
+<li><p>Export the .bibtex file to Overleaf</p></li>
+</ol>
+</section>
+<section id="takeaways" class="slide level2">
+<h2>Takeaways</h2>
 <ul>
-<li><p>Create a new collection</p></li>
-<li><p>Add 3 papers to the new collection</p>
+<li><p>Lots of exciting resources for improving workflow</p>
 <ul>
-<li>Drop in pdf files or using Zotero connector</li>
+<li>Many resources not mentioned</li>
 </ul></li>
-<li><p>Export the .bibtex file</p></li>
+<li><p>Pick workflow that works best for you</p>
+<ul>
+<li>Definitely worth investing in your workflow!</li>
+</ul></li>
+</ul>
+</section>
+<section id="more-resources" class="slide level2">
+<h2>More resources</h2>
+<ul>
+<li>Github: <a href="https://happygitwithr.com/">Happy Git with R</a></li>
+<li>LaTeX: <a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes">Learn Latex in 30 Minutes</a>, <a href="https://tobi.oetiker.ch/lshort/lshort.pdf">Not-so-short introduction to LaTeX</a></li>
+<li>Zotero: <a href="https://library-guides.ucl.ac.uk/zotero">Getting Started with Zotero</a></li>
 </ul>
 </section>
 <section id="questions" class="slide level2">
