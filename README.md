@@ -8,3 +8,8 @@ In this 1-hour session, we will cover:
 
 Slides: 
 
+
+Instructor: 
+
+* [Casey Breen](caseybreen.com)
+
