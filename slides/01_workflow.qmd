@@ -58,7 +58,7 @@ High-level introduction to three tools:
 
 # Git and GitHub
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 -   Git: verion-control system for tracking changes in code
 
@@ -76,7 +76,7 @@ High-level introduction to three tools:
 knitr::include_graphics(path = here("slides/01_workflow_files/figures/git_github.png"))
 ```
 :::
-:::
+::::::
 
 ## Key advantages of GitHub
 
@@ -261,7 +261,7 @@ git clone https://github.com/username/repository-name.git
 
 ## Overleaf
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 -   Google docs for Latex
 
@@ -278,7 +278,7 @@ git clone https://github.com/username/repository-name.git
 ::: {.column width="50%"}
 ![](images/overleaf.png){width="568"}
 :::
-:::
+::::::
 
 ## Live Demo + Casey templates
 

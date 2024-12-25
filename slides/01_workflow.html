@@ -8,11 +8,11 @@
 <link href="01_workflow_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="01_workflow_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="01_workflow_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.433">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Casey Breen">
-  <meta name="dcterms.date" content="2023-11-30">
-  <title>quarto-input131a257f</title>
+  <meta name="dcterms.date" content="2024-11-22">
+  <title>quarto-input952d6566559ad35b</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,7 +32,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -43,7 +43,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -71,7 +71,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -85,7 +85,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -222,7 +222,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -391,7 +392,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title"><p>Modern Workflow</p></h1>
+  <h1 class="title"><div class="line-block">Modern Workflow</div></h1>
   <p class="subtitle">Department of Sociology | University of Oxford</p>
 
 <div class="quarto-title-authors">
@@ -402,7 +403,7 @@ Casey Breen
 </div>
 </div>
 
-  <p class="date">2023-11-30</p>
+  <p class="date">2024-11-22</p>
 </section>
 <section id="workflow-and-collaboration-tools" class="slide level2">
 <h2>Workflow and collaboration tools</h2>
@@ -470,11 +471,14 @@ Casey Breen
 </div><div class="column" style="width:50%;">
 <div class="cell">
 <div class="cell-output-display">
+<div>
+<figure>
 <p><img data-src="01_workflow_files/figures/git_github.png" width="801"></p>
+</figure>
 </div>
 </div>
 </div>
-</div>
+</div></div>
 </section>
 <section id="key-advantages-of-github" class="slide level2">
 <h2>Key advantages of GitHub</h2>
@@ -516,11 +520,11 @@ Casey Breen
 
 <img data-src="01_workflow_files/figures/github_overview.png" width="716" class="r-stretch"><p>To add files to staging area:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="do">## add all changed files </span></span>
-<span id="cb1-2"><a href="#cb1-2"></a>git add <span class="sc">-</span>A </span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="do">## add specific file</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>git add <span class="sc">/</span>path<span class="sc">/</span>to<span class="sc">/</span>file<span class="sc">/</span>file.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="do">## add all changed files </span></span>
+<span id="cb1-2"><a href=""></a>git add <span class="sc">-</span>A </span>
+<span id="cb1-3"><a href=""></a></span>
+<span id="cb1-4"><a href=""></a><span class="do">## add specific file</span></span>
+<span id="cb1-5"><a href=""></a>git add <span class="sc">/</span>path<span class="sc">/</span>to<span class="sc">/</span>file<span class="sc">/</span>file.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="github-workflow-git-commit" class="slide level2">
@@ -528,8 +532,8 @@ Casey Breen
 
 <img data-src="01_workflow_files/figures/github_overview.png" width="716" class="r-stretch"><p>Commit changes</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="do">## commit changes </span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>git commit <span class="sc">-</span>m <span class="st">"add an informative message here"</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="do">## commit changes </span></span>
+<span id="cb2-2"><a href=""></a>git commit <span class="sc">-</span>m <span class="st">"add an informative message here"</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="github-workflow-git-push" class="slide level2">
@@ -537,8 +541,8 @@ Casey Breen
 
 <img data-src="01_workflow_files/figures/github_overview.png" width="716" class="r-stretch"><p>Send (“push”) your changes up to remote repository (where collaborators / public can see)</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="do">## add all changed files </span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>git push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="do">## add all changed files </span></span>
+<span id="cb3-2"><a href=""></a>git push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="github-workflow-git-pull" class="slide level2">
@@ -546,7 +550,7 @@ Casey Breen
 
 <img data-src="01_workflow_files/figures/github_overview.png" width="716" class="r-stretch"><p>Pull down changes from repository (e.g., changes your collaborator made)</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>git pull</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a>git pull</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="other-features" class="slide level2">
@@ -555,11 +559,11 @@ Casey Breen
 <li><strong>Git Clone</strong>: Clone a remote repository to your local machine</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="do">## general command </span></span>
-<span id="cb5-2"><a href="#cb5-2"></a>git clone https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>username<span class="sc">/</span>repository<span class="sc">-</span>name.git</span>
-<span id="cb5-3"><a href="#cb5-3"></a></span>
-<span id="cb5-4"><a href="#cb5-4"></a><span class="do">## clone the repository for this class </span></span>
-<span id="cb5-5"><a href="#cb5-5"></a>git clone https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>username<span class="sc">/</span>repository<span class="sc">-</span>name.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="do">## general command </span></span>
+<span id="cb5-2"><a href=""></a>git clone https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>username<span class="sc">/</span>repository<span class="sc">-</span>name.git</span>
+<span id="cb5-3"><a href=""></a></span>
+<span id="cb5-4"><a href=""></a><span class="do">## clone the repository for this class </span></span>
+<span id="cb5-5"><a href=""></a>git clone https<span class="sc">:</span><span class="er">//</span>github.com<span class="sc">/</span>username<span class="sc">/</span>repository<span class="sc">-</span>name.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li><p><strong>Git fork:</strong> Copy a (public) repository to have your own version</p></li>
@@ -636,12 +640,12 @@ h(x) = \alpha e^{\beta x}
 <li>Include figures in text</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>\begin{figure}[<span class="sc">!</span>htb]</span>
-<span id="cb6-2"><a href="#cb6-2"></a>    \centering</span>
-<span id="cb6-3"><a href="#cb6-3"></a>    \includegraphics[width <span class="ot">=</span> .<span class="dv">9</span>\textwidth]{figs<span class="sc">/</span>tanganyika_map.png}</span>
-<span id="cb6-4"><a href="#cb6-4"></a>    \caption{Tanganyika province with three Zone de Santes highlighted.}</span>
-<span id="cb6-5"><a href="#cb6-5"></a>    \label{fig<span class="sc">:</span>map}</span>
-<span id="cb6-6"><a href="#cb6-6"></a>\end{figure}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href=""></a>\begin{figure}[<span class="sc">!</span>htb]</span>
+<span id="cb6-2"><a href=""></a>    \centering</span>
+<span id="cb6-3"><a href=""></a>    \includegraphics[width <span class="ot">=</span> .<span class="dv">9</span>\textwidth]{figs<span class="sc">/</span>tanganyika_map.png}</span>
+<span id="cb6-4"><a href=""></a>    \caption{Tanganyika province with three Zone de Santes highlighted.}</span>
+<span id="cb6-5"><a href=""></a>    \label{fig<span class="sc">:</span>map}</span>
+<span id="cb6-6"><a href=""></a>\end{figure}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li><p>Reference figures and tables in text using label</p>
@@ -664,8 +668,7 @@ h(x) = \alpha e^{\beta x}
 
 </div><div class="column" style="width:50%;">
 <p><img data-src="images/overleaf.png" width="568"></p>
-</div>
-</div>
+</div></div>
 </section>
 <section id="live-demo-casey-templates" class="slide level2">
 <h2>Live Demo + Casey templates</h2>
@@ -785,8 +788,10 @@ h(x) = \alpha e^{\beta x}
 <li><p>Thanks for your attendance and participation</p></li>
 <li><p>Questions: <a href="casey.breen@demography.ox.ac.uk">casey.breen@demography.ox.ac.uk</a></p></li>
 </ul>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section></section>
     </div>
@@ -815,7 +820,6 @@ h(x) = \alpha e^{\beta x}
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1070,18 +1074,7 @@ h(x) = \alpha e^{\beta x}
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1113,11 +1106,50 @@ h(x) = \alpha e^{\beta x}
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1127,8 +1159,17 @@ h(x) = \alpha e^{\beta x}
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1142,7 +1183,11 @@ h(x) = \alpha e^{\beta x}
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
